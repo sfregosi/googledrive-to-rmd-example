@@ -3,7 +3,7 @@ googledrive::drive_deauth()
 googledrive::drive_auth()
 
 # Download the chapters from google drive ---------------------------------
-# This is the tag from the tail end of the hyperlink in the browswer. So to get it, go to your folder and copy/paste that combo of numbers and letters here:
+# This is the tag from the tail end of the hyperlink in the browser. So to get it, go to your folder and copy/paste that combo of numbers and letters here:
 dir_googledrive <- "1qC4L9CLsXyGkVn4pCFnCUZ8IanUokVZ5" 
 
 id_googledrive <- googledrive::as_id(dir_googledrive)
